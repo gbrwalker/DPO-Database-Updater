@@ -7,12 +7,10 @@ Este repositório centraliza notebooks que integram diferentes sistemas (Gasola,
 
 ## 📂 Estrutura do Repositório
 
-- **notebooks/** → Contém os notebooks principais
-  - `Atualizar_Gasola.ipynb` → Integração com API do Gasola (abastecimentos da frota)
-  - `Atualizar_Promax.ipynb` → Integração com sistema Promax (relatórios operacionais)
-  - `Atualizar_Checklist.ipynb` → Atualização de checklists de inspeções
-- **docs/** → Documentações e instruções complementares
-- **README.md** → Apresentação do repositório
+- **API Gasola Abastecimentos/** → Integração com API do Gasola (abastecimentos da frota)
+- **Gestran Consulta Checklist/** → Consulta e atualização de checklists de inspeção
+- **Promax Entrada e Saída CDD/** → Integração com sistema Promax (entradas e saídas do CDD)
+- **README.md** → Documentação principal do repositório
 
 ---
 
@@ -47,15 +45,6 @@ Instalação local:
 ```bash
 pip install pandas openpyxl requests
 ```
-
----
-
-## ✅ Boas Práticas
-
-- Não versionar tokens/credenciais no repositório.  
-- Utilizar variáveis de ambiente ou arquivos `.env`.  
-- Documentar cada atualização ou novo notebook adicionado.  
-
 ---
 
 ## 📌 Objetivo
